@@ -1,0 +1,6 @@
+s = str(input())
+l_pos = s.find("h")
+r_pos = s.rfind("h")
+print(s[:l_pos + 1], end="")
+print(s[l_pos + 1:r_pos].replace("h", "H"), end="")
+print(s[r_pos:], end="")
